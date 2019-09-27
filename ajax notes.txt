@@ -1,0 +1,53 @@
+XMLHttpRequest (XHR) is an API that can be used by JavaScript, JScript, VBScript, and other we browser scripting languages to transfer and manipulate XML data to and from a websert usering HTTP, establishing an independent connection chanel between a webpage's Clien-Side and Server-Side.
+The data returned from MHR calls will often be provided by back-end databases.
+Besides XML, DHR can be used to fetch data in other formats, e.g. JSON or even plain text.
+
+
+XMLHttpRequest open Methods
+---------------------------
+open(method, URL)
+open (method, URL, async)
+openn ( mehtod, URL, asyn, userName)
+open( method, URL, async, userName, password)
+
+onreadystatechange - an event handler for an event that fires at every state change.
+
+readyState property defines current state ofh the XMLHttpRequest object.
+-Possible values for readyStae property
+	0) After you have created the xhr object but before you called the open method - not initialized
+	1) called open() method but before called send()
+	2) called send()
+	3) broswer has establish communication with server, but before response
+	4) request has completed
+
+responseText - returns response as string
+responseXML - returns as XML
+status - returns status
+statusText - returns status as string
+
+
+JSON can be used with AJAX to communicate with the server and JavaScript. so that the page will have continous functionality i.e. there is no need to refresh the page because AJAX can communicate with the server during the session and do live updates by telling JavaScript what and whent to fire with the help of JSON
+
+jQuery validator plugin cdn?
+
+
+p1 structure (Tier Structure)
+
+Client:
+-Presentation: HTML, CSS
+-Service: JS, jQuery validator plugin (validation), bootstrap
+
+-Business:
+Server:
+Core Java
+Oracle DB (SQL/PLSQL)
+JUnit
+JEE->Servlet
+
+
+Requirements:
+1) Admin user - can view all users; search users by account #; search users by transaction #
+2) Reset Password with security question
+
+
+p1 presentation - sept 20th
