@@ -1,0 +1,153 @@
+:root{
+    --color1 : rgb(245, 224, 190);
+    --color1-1 : rgba(245, 224, 190,0.8);
+    --color1-2 : rgb(252, 244, 233);
+    --color2 : rgb(68, 116, 212);
+    --color2-1 : rgba(68, 116, 212, 0.7);
+    --color3 : rgb(196, 186, 161);
+    --color3-1 : rgba(196, 186, 161,0.8);
+    --color4 : rgb(23, 34, 43);
+    --color5 : rgb(93, 117, 151);
+    --color5-1 : rgba(93, 117, 151, 0.9);
+    --color5-2 : rgb(69, 92, 131);
+
+}
+
+body{
+    background-color: var(--color2-1);
+    background-image: url("../images/background.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position-y: center;
+    font-family: 'Raleway', sans-serif;
+    margin:1em;
+    padding:.5em;
+}
+
+*{
+    position: relative;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    font-size: 125%;
+    text-align: center;
+}
+.nav{
+    border-color: var(--color2);
+    background-color:var(--color3);
+}
+
+.active{
+    background-color: var(--color2)!important;
+    color:var(--color1)!important;
+}
+
+.active:hover {
+    /* border: solid;
+    border-width: 1px; */
+    border-bottom: solid; 
+    background-color: var(--color2-1)!important;
+    border-width: 2px;
+    font-weight: 700;
+    text-decoration-style: wavy;
+    color: var(--color4)!important;
+    /*border-color: var(--color4)!important;*/
+}
+
+#logo{
+    font-family: 'Abril', serif;
+    font-size:75pt;
+    border: 5pt double var(--color4);
+    background-color: var(--color5-1);
+    /* background-color: var(--color5-2); */
+    left: 1;
+}
+#logo:hover{
+    border-radius: 10px;
+    border-color: black;
+    padding: .5rem;
+    background-color: var(--color5-2);
+    color:black;
+}
+
+#welcome{
+    padding-top:3em;
+    text-align: center;
+}
+.title{
+    background-color: var(--color1-1);
+    padding: .5em .6em .2em;
+    font-size: 300%;
+}
+.subtitle{
+    color:var(--color5); 
+    font-size: 80%;
+}
+
+#login, #register{
+    margin-top: 4%;
+}
+
+#login div, #register div{
+    text-align: center;
+}
+
+#login a{
+    font-size: 24pt;
+    font-weight: 550;
+}
+
+.login h2, .register h2{
+    font-size:200%;
+    padding-top: 4%;
+}
+.login, .register{
+    padding-bottom: 3%;
+}
+#login .login{
+    background-color: var(--color2-1);
+    border:2px solid var(--color1);
+}
+#login h2{
+    color:white;
+}
+#register .register{
+    background-color: var(--color3-1);
+    border:2px solid var(--color2);
+}
+
+.test{
+    border-radius: 10px!important;
+}
+
+.login .ForgetPwd{
+    color:var(--color1-1);
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.errMsg{
+    color:rgb(168, 0, 0);
+    font-size: 14pt;
+    font-weight: bolder
+}
+
+.hidden{
+    visibility:hidden;
+}
+
+.validation{
+    color:greenyellow;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+#learn{
+    background-color: var(--color1-1)
+}
